@@ -278,6 +278,10 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxQcelp13Enc
 
+# Build version
+  PRODUCT_PROPERTY_OVERRIDES += \
+      ro.rom.version=MertDroidTest
+  
 # QRNGD
 PRODUCT_PACKAGES += qrngd
 
